@@ -1,7 +1,9 @@
 # 5x5 Chess Game
 # Features
 - This game is a simplified version of the traditional 8x8 chess game
-- Fully Functional Game Logic (players, piece movements)
+- Basic chess pieces: Pawn, Horse (Knight), Bishop, Rook, Queen, and King
+- Turn-based play between two players (Red and Blue)
+- Piece movement and capturing according to chess rules
 - GUI made using OPENGL, GLEW, GLFW
 
 # ScreenShots
