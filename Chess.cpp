@@ -117,9 +117,13 @@ int main(void)
     // Put the filePaths for all pieces
     char redPawnfilePath[120] = "textures/redpawn.png";
 
-    // Initialize Game
+    // Initialize Game and all ressources to keep the game optimized
     stbi_set_flip_vertically_on_load(true);
     Methods::initializeGame();
+    Methods::initializeBlackSquareResources();
+    Methods::initializeWhiteSquareResources();
+    Methods::initializeTextureResources();
+
    // glfwSetMouseButtonCallback(window);
     /* Loop until the user closes the window */
     while (!glfwWindowShouldClose(window))
@@ -134,8 +138,9 @@ int main(void)
         // Add Imgui UI
 
         // render container
-        Methods::drawChessboard();
-
+       Methods::drawChessboard();
+       // Methods::drawWhiteSquareMatrix(300, 400, 100);
+       // Methods::drawBlackSquareMatrix(360, 500, 100);
        // Methods::drawChessPiece(redPawnfilePath,360, 250, 100);
         Methods::drawRedPieces();
         Methods::drawBluePieces();

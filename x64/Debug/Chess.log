@@ -1,2 +1,6 @@
 ﻿  Methods.cpp
+C:\Users\Adnane Bejja\source\repos\Chess\Chess\Methods.cpp(837,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Adnane Bejja\source\repos\Chess\Chess\Methods.cpp(838,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Adnane Bejja\source\repos\Chess\Chess\Methods.cpp(884,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Adnane Bejja\source\repos\Chess\Chess\Methods.cpp(893,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
   Chess.vcxproj -> C:\Users\Adnane Bejja\source\repos\Chess\x64\Debug\Chess.exe
